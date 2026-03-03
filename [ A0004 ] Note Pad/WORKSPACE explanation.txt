@@ -1,5 +1,41 @@
+Visual 설명
+
 ㆍBlock textures and model : 텍스쳐
+
 ㆍTint type : 환경에 따라 블럭의 색이 변경됨 ( 예 : 잔디블럭 )
 	└ Is block item tinted? : 인벤토리에 들어있는 블럭의 색도 바꿀거면 체크
+
 ㆍBlock base : 계단 울타리 등
-ㆍ
+
+ㆍBlock item texture : 기본블럭 텍스처가 싫으면 여기서 변경
+
+ㆍBlock particle texture : 부수거나 밟거나 착지할 때 생기는 파티클
+	└ 기본 / 싱글 : Nomal / Single
+	└ 크로스 : Cross
+	└ 작물형 : Crop
+	└ 잔디형 : Grass
+
+ㆍ블럭 회전 속성
+	└ No rotation : 기본
+	└ Y axis rotation ( S/ W / N / E ) : 플레이어가 보는 방향에 따라 측면만 회전
+	└ D / U / N / S / W / E rotation : 플레이어가 보는 방향에 따라 모든면이 회전
+	└ Y axis rotation ( S / W / N / E ) : 블럭 면을 기준으로 측면만 회전
+	└ D / U / N / S / W / E rotation : 블럭 면을 기준으로 모든면이 회전
+	└ Log rotation ( X / Y / Z ) : 나무와 같은 방식으로 회전
+# 레버나 그라인더처럼 설치하고 싶을때 체크 -> Y axis 속성일때만 활성화됨
+
+ㆍIs block waterloggable? : 블럭 내부에 물을 채울 수 있음
+	└ 물속에서 설치된 계단 울타리를 떠올리면 됨
+	└ 주의 사항 : 1. 투명블럭을 만들고 싶을 때 체크
+			    2. 레드스톤파워가 통하지 않음
+			    3. 계단이나 울타리처럼 이어지지 않음
+			    4. 바운딩박스가 비활성화됨
+			    # 블럭이 특수한 경우 체크
+
+ㆍTexture transparency type : 투명도 유형
+	└ SOLID : 없음 ( 기본 )
+	└ CUTOUT : 투명 ( 유리 )
+	└ CUTOUT_MIPPED : 투명 밉맵핑 적용 ( 유리 )
+	└ TRANSLUCENT : 반투명 ( 얼음 )
+
+ㆍSpecial information : 아이템 설명
