@@ -1,0 +1,5 @@
+ㆍBlock textures and model : 텍스쳐
+ㆍTint type : 환경에 따라 블럭의 색이 변경됨 ( 예 : 잔디블럭 )
+	└ Is block item tinted? : 인벤토리에 들어있는 블럭의 색도 바꿀거면 체크
+ㆍBlock base : 계단 울타리 등
+ㆍ
